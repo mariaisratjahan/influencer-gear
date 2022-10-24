@@ -10,6 +10,12 @@ button{
     border:none;
     margin-top: 16px;
 }
+.flexible-content{
+    display:flex;
+    align-items: center;
+    gap: 126px;
+}
+/* ------------header style --------------- */
 header{
     padding:0 100px;
 }
@@ -38,11 +44,7 @@ header{
 .banner{
     padding:50px 120px;
 }
-.banner-container{
-    display:flex;
-    align-items: center;
-    gap: 126px;
-}
+
 .banner-content{
     /* padding-right: 133px; */
     font-family: Poppins;
@@ -68,7 +70,7 @@ header{
     letter-spacing: 0px;
     text-align: left;
 }
-/* --------popular collection style -------- */
+/* --------popular-collection-style -------- */
 .popular-collection-container h2{
     text-align: center;
 }
@@ -82,3 +84,10 @@ header{
     grid-gap: 30px;
     justify-content: center;
 }
+/* ---------- featured-product-style --------- */
+
+.featured-product-container{
+    padding:100px 165px;
+}
+
+/* ------footer-style ---------- */
