@@ -67,5 +67,18 @@ header{
     line-height: 24px;
     letter-spacing: 0px;
     text-align: left;
-
+}
+/* --------popular collection style -------- */
+.popular-collection-container h2{
+    text-align: center;
+}
+.card{
+    background-color: #E02C6D;
+    
+}
+.cards{
+    display: grid;
+    grid-template-columns:repeat(3,329px);
+    grid-gap: 30px;
+    justify-content: center;
 }
