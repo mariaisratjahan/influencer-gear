@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    padding:0 100px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.navigation-links{
+    display: flex;
+}
+.navigation-links a, .navigation a{
+    padding: 0 34px;
+    text-decoration: none;
+    color:#3A3A3A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+}
+.logo a{
+    font-size: 24px;
+}
